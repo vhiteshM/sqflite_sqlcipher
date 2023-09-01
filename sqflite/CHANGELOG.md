@@ -1,3 +1,6 @@
+## 2.2.1
+* Update minimum deployment targets for iOS (11.0) and macOS (10.13) to use SQLCipher 4.5.4
+
 ## 2.2.0
 * SQLCipher version 4.5.4
 

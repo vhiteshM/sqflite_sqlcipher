@@ -18,7 +18,7 @@ Access SQLite database.
   s.dependency 'FMDB/SQLCipher', '~> 2.7.5'
   s.dependency 'SQLCipher', '4.5.4'
 
-  s.platform = :osx, '10.11'
+  s.platform = :osx, '10.13'
   s.pod_target_xcconfig = { 
     'DEFINES_MODULE' => 'YES',
     'HEADER_SEARCH_PATHS' => 'SQLCipher'
