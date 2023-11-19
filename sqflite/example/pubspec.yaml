@@ -4,7 +4,7 @@ publish_to: none
 version: "0.2.0"
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
+  sdk: '>=2.12.0 <4.0.0'
   flutter: ">=1.12.13+hotfix.6 <2.0.0"
 
 dependencies:
@@ -22,11 +22,12 @@ dependencies:
   synchronized: any
 
 dev_dependencies:
+  integration_test:
+    sdk: flutter
   flutter_test:
     sdk: flutter
   flutter_driver:
     sdk: flutter
-  e2e: ^0.7.0+1
   test:
   matcher: ">=0.12.3 < 2.0.0"
   pedantic: ">=1.4.0 <3.0.0"
